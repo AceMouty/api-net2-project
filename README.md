@@ -130,12 +130,12 @@ app.UseHttpsRedirection(); // <- remove this line and restart server
 
 - `ValidateUser`
 
-  - Using [Data Annotations]() validate the `body` on a request to create or update a user
+  - Using [Data Annotations](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#validation-attributes) validate the `body` on a request to create or update a user
   - if the request `body` lacks the required `name` field, the API should respond with a Validation Error
 
 - `Validate Post`
 
-  - Using [Data Annotations]() validate the `body` on a request to create a new post
+  - Using [Data Annotations](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#validation-attributes) validate the `body` on a request to create a new post
   - if the request `body` lacks the required `text` field, the API should respond with a Validation Error
 
 ### Repositories (Data Access)
